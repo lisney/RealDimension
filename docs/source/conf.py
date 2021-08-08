@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'RealDimension'
-copyright = '2021, lisney'
-author = 'lisney'
+copyright = '2021, Lisney'
+author = 'Lisney'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
@@ -32,7 +32,6 @@ release = '0.1'
 # ones.
 extensions = ['myst_parser',
 ]
-
 source_suffix = { '.rst': 'restructuredtext', '.txt': 'markdown', '.md': 'markdown', }
 
 # Add any paths that contain templates here, relative to this directory.
@@ -63,4 +62,4 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_logo='logo.png'
+html_logo = 'mediace3d.png'
